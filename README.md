@@ -2,6 +2,10 @@
 # checkoraimopod
 Used in conjuction with the Windows Task Scheduler, this application checks whether the oraimo FreePods 3 TWS True Wireless Stereo Earbuds is available and sends notification to the windows desktop.
 
+# Requirements
+You need to install python on your windows computer.
+Link: https://www.python.org/downloads/
+
 # Note:
 -  This application is specific to the oraimo FreePods 3 TWS True Wireless Stereo Earbuds. However, feel free to download and edit code for other products.
 -  You will need to manually schedule a task on your windows machine to run the script. (Steps are given below)
