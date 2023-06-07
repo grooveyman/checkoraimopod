@@ -8,14 +8,14 @@ from winotify import Notification, audio
 toast = Notification(app_id="Oraimo Checker", title="Oraimo Pod Availability"
                      ,msg="oraimo FreePods 3 TWS True Wireless Stereo Earbuds is now avalable",
                      duration="long",
-                     icon=f"{os.getcwd()}\oraimo.png")
+                     icon=rf"{os.getcwd()}\oraimo.png")
 toast.set_audio(audio.Default, loop=False)
 
 toast.add_actions(label="Order Now!", launch="https://gh.oraimo.com/oraimo-freepods-3-true-wireless-earbuds.html")
 
 
 
-file = open(f'{os.getcwd()}\task.txt', 'a') #a option is for append
+file = open(rf'{os.getcwd()}\task.txt', 'a') #a option is for append
 
 
 url = "https://gh.oraimo.com/oraimo-freepods-3-true-wireless-earbuds.html"
